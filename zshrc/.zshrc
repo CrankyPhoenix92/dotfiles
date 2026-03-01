@@ -19,4 +19,4 @@ export FZF_DEFAULT_OPTS=" \
 source <(fzf --zsh)
 
 # Set alias for "interactive neovim"
-alias inv='nvim $(fzf -m --preview="bat --color=always --line-range=:25 {}")'
+alias inv='nvim $(fzf -m --preview="bat --color=always --line-range=:50 {}")'
