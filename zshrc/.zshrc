@@ -12,4 +12,4 @@ setopt inc_append_history
 source <(fzf --zsh)
 
 # Set alias for "interactive neovim"
-alias inv='nvim $(fzf -m --preview="bat --color {}")'
+alias inv='nvim $(fzf -m --preview="bat --color=always --line-range=:25 {}")'
